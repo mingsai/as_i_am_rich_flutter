@@ -4,11 +4,20 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home:Scaffold(appBar: AppBar(
-        title: Text('I am Rich'),
-        backgroundColor: Colors.blueGrey[900],
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('I am Rich'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Center(
+          child: Image(
+              image: NetworkImage(
+                  'https://cnet3.cbsistatic.com/img/KiI_dLHwMGFlGsnGuYbsDJdbON4=/970x0/2019/01/11/21c3dece-7bbb-4fba-8fca-10c894b8b39a/starship.jpg'),
+              alignment: Alignment.center,
+            ),
+        ),
+        backgroundColor: Colors.blueGrey,
       ),
-        backgroundColor: Colors.blueGrey[900],
       ),
     ),
   );
