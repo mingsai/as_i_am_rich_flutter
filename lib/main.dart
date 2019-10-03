@@ -11,14 +11,14 @@ void main() {
         ),
         body: Center(
           child: Image(
-              image: NetworkImage(
-                  'https://cnet3.cbsistatic.com/img/KiI_dLHwMGFlGsnGuYbsDJdbON4=/970x0/2019/01/11/21c3dece-7bbb-4fba-8fca-10c894b8b39a/starship.jpg'),
-              alignment: Alignment.center,
-            ),
+            image: AssetImage('images/diamond.png'),
+            //image: NetworkImage('https://cnet3.cbsistatic.com/img/KiI_dLHwMGFlGsnGuYbsDJdbON4=/970x0/2019/01/11/21c3dece-7bbb-4fba-8fca-10c894b8b39a/starship.jpg'),
+//            alignment: Alignment.center,
+          ),
         ),
         backgroundColor: Colors.blueGrey,
-      ),
       ),
     ),
   );
 }
+
