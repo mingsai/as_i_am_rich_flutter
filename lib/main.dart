@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('I Am So Not   Rich'),
+          title: Text('I Am So Not Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
